@@ -1149,6 +1149,45 @@
     <string name="option_vflow_network_http_request_body_form">フォーム</string>
     <string name="option_vflow_network_http_request_body_raw">プレーンテキスト</string>
     <string name="option_vflow_network_http_request_body_file">ファイル</string>
+
+    <!-- vflow.network.webview -->
+    <string name="module_vflow_network_webview_name">ウェブページを開く (WebView)</string>
+    <string name="module_vflow_network_webview_desc">埋め込み WebView でページを開き、確認後にリクエストヘッダー・レスポンス・Cookie・JS の結果を返します</string>
+    <string name="param_vflow_network_webview_url_name">URL</string>
+    <string name="param_vflow_network_webview_method_name">メソッド</string>
+    <string name="param_vflow_network_webview_headers_name">リクエストヘッダー</string>
+    <string name="param_vflow_network_webview_headers_hint">{\"Authorization\": \"Bearer ...\"}</string>
+    <string name="param_vflow_network_webview_body_name">リクエストボディ</string>
+    <string name="param_vflow_network_webview_custom_js_name">カスタム JS</string>
+    <string name="param_vflow_network_webview_return_variable_name">戻り値変数</string>
+    <string name="param_vflow_network_webview_headless_name">バックグラウンドモード</string>
+    <string name="param_vflow_network_webview_timeout_name">タイムアウト(秒)</string>
+    <string name="output_vflow_network_webview_final_url_name">最終 URL</string>
+    <string name="output_vflow_network_webview_status_code_name">ステータスコード</string>
+    <string name="output_vflow_network_webview_request_headers_name">リクエストヘッダー</string>
+    <string name="output_vflow_network_webview_response_headers_name">レスポンスヘッダー</string>
+    <string name="output_vflow_network_webview_response_body_name">レスポンス本文</string>
+    <string name="output_vflow_network_webview_page_title_name">ページタイトル</string>
+    <string name="output_vflow_network_webview_cookies_name">Cookie</string>
+    <string name="output_vflow_network_webview_return_value_name">戻り値</string>
+    <string name="output_vflow_network_webview_return_value_type_name">戻り値の型</string>
+    <string name="output_vflow_network_webview_js_error_name">JS エラー</string>
+    <string name="error_vflow_network_webview_param_error">パラメータエラー</string>
+    <string name="error_vflow_network_webview_empty_url">URL は空にできません</string>
+    <string name="error_vflow_network_webview_invalid_url">無効な URL です</string>
+    <string name="error_vflow_network_webview_invalid_headers">リクエストヘッダーの形式が不正です：%s</string>
+    <string name="error_vflow_network_webview_invalid_method">サポートされていない HTTP メソッド：%s</string>
+    <string name="error_vflow_network_webview_invalid_return_variable">戻り値変数名が無効です：%s</string>
+    <string name="error_vflow_network_webview_network_error">ネットワークエラー</string>
+    <string name="error_vflow_network_webview_redirect_loop">リダイレクトが多すぎます</string>
+    <string name="error_vflow_network_webview_timeout">実行がタイムアウトしました</string>
+    <string name="error_vflow_network_webview_activity_launch_failed">確認画面を開けませんでした</string>
+    <string name="error_vflow_network_webview_cancelled">キャンセルされました</string>
+    <string name="error_vflow_network_webview_internal_error">内部エラー</string>
+    <string name="msg_vflow_network_webview_loading" formatted="false">%s を開いています…</string>
+    <string name="msg_vflow_network_webview_waiting_confirm">ユーザーによるページの確認を待っています…</string>
+    <string name="webview_confirmation_check">確認</string>
+
     <string name="module_vflow_network_bark_push_name">Bark プッシュ</string>
     <string name="module_vflow_network_bark_push_desc">Bark App に通知メッセージを送信します</string>
     <string name="param_vflow_network_bark_push_server_url_name">サーバーURL</string>

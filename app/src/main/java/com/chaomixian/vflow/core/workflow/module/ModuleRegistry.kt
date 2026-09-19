@@ -10,6 +10,7 @@ import com.chaomixian.vflow.core.workflow.module.integration.*
 import com.chaomixian.vflow.core.workflow.module.interaction.*
 import com.chaomixian.vflow.core.workflow.module.logic.*
 import com.chaomixian.vflow.core.workflow.module.network.*
+import com.chaomixian.vflow.core.workflow.module.network.webview.*
 import com.chaomixian.vflow.core.workflow.module.notification.*
 import com.chaomixian.vflow.core.workflow.module.shizuku.*
 import com.chaomixian.vflow.core.workflow.module.system.*
@@ -164,6 +165,7 @@ object ModuleRegistry {
         // 网络
         register(GetIpAddressModule(), context)
         register(HttpRequestModule(), context)
+        register(WebViewModule(), context)
         register(BarkPushModule(), context)
         register(DiscordPushModule(), context)
         register(WebhookPushModule(), context)
