@@ -151,6 +151,7 @@ object ModuleRegistry {
         register(Sm4CryptoModule(), context)
         register(ParseJsonModule(), context)
         register(ParseXmlModule(), context)
+        register(ParseHtmlModule(), context)
         register(CommentModule(), context)
         register(FileOperationModule(), context)
 

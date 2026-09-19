@@ -1242,6 +1242,25 @@
     <string name="error_vflow_data_parse_xml_parse_error">XML parsing error</string>
     <string name="error_vflow_data_parse_xml_xpath_error">XPath evaluation error</string>
 
+    <!-- vflow.data.parse_html -->
+    <string name="module_vflow_data_parse_html_name">Parse HTML (XPath)</string>
+    <string name="module_vflow_data_parse_html_desc">Extract data from HTML text using XPath</string>
+    <string name="param_vflow_data_parse_html_html_name">HTML Text</string>
+    <string name="param_vflow_data_parse_html_xpath_name">XPath</string>
+    <string name="output_vflow_data_parse_html_first_value_name">First Matched Value</string>
+    <string name="output_vflow_data_parse_html_all_values_name">All Matched Values</string>
+    <string name="output_vflow_data_parse_html_first_element_name">First Matched Element</string>
+    <string name="output_vflow_data_parse_html_all_elements_name">All Matched Elements</string>
+    <string name="output_vflow_data_parse_html_scalar_value_name">Scalar Result</string>
+    <string name="output_vflow_data_parse_html_match_count_name">Match Count</string>
+    <string name="error_vflow_data_parse_html_param_error">Parameter Error</string>
+    <string name="error_vflow_data_parse_html_empty">HTML text cannot be empty</string>
+    <string name="error_vflow_data_parse_html_xpath_empty">XPath cannot be empty</string>
+    <string name="error_vflow_data_parse_html_parse_error">HTML parsing error</string>
+    <string name="error_vflow_data_parse_html_xpath_error">XPath evaluation error</string>
+    <string name="msg_vflow_data_parse_html_parsing">Parsing HTML…</string>
+    <string name="msg_vflow_data_parse_html_done" formatted="false">Parsing done, %d matches found</string>
+
     <!-- vflow.data.comment -->
     <string name="module_vflow_data_comment_name">Comment</string>
     <string name="module_vflow_data_comment_desc">Add comments to document your workflow design. Will be skipped during execution.</string>

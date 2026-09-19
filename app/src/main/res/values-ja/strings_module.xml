@@ -1117,6 +1117,26 @@
     <string name="error_vflow_data_parse_xml_xpath_empty">XPath は空にできません</string>
     <string name="error_vflow_data_parse_xml_parse_error">XML 解析エラー</string>
     <string name="error_vflow_data_parse_xml_xpath_error">XPath 解析エラー</string>
+
+    <!-- vflow.data.parse_html -->
+    <string name="module_vflow_data_parse_html_name">HTML を解析 (XPath)</string>
+    <string name="module_vflow_data_parse_html_desc">XPath を使って HTML テキストからデータを抽出します</string>
+    <string name="param_vflow_data_parse_html_html_name">HTML テキスト</string>
+    <string name="param_vflow_data_parse_html_xpath_name">XPath</string>
+    <string name="output_vflow_data_parse_html_first_value_name">最初の一致値</string>
+    <string name="output_vflow_data_parse_html_all_values_name">すべての一致値</string>
+    <string name="output_vflow_data_parse_html_first_element_name">最初の一致要素</string>
+    <string name="output_vflow_data_parse_html_all_elements_name">すべての一致要素</string>
+    <string name="output_vflow_data_parse_html_scalar_value_name">スカラー結果</string>
+    <string name="output_vflow_data_parse_html_match_count_name">一致数</string>
+    <string name="error_vflow_data_parse_html_param_error">パラメータエラー</string>
+    <string name="error_vflow_data_parse_html_empty">HTML テキストは空にできません</string>
+    <string name="error_vflow_data_parse_html_xpath_empty">XPath は空にできません</string>
+    <string name="error_vflow_data_parse_html_parse_error">HTML 解析エラー</string>
+    <string name="error_vflow_data_parse_html_xpath_error">XPath 解析エラー</string>
+    <string name="msg_vflow_data_parse_html_parsing">HTML を解析しています…</string>
+    <string name="msg_vflow_data_parse_html_done" formatted="false">解析が完了し、%d 件の一致が見つかりました</string>
+
     <string name="module_vflow_data_comment_name">コメント</string>
     <string name="module_vflow_data_comment_desc">コメントを追加して、ワークフローの設計意図や目的を記録します。実行時はスキップされます。</string>
     <string name="param_vflow_data_comment_content_name">コメント内容</string>
